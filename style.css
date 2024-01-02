@@ -1,0 +1,47 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+*{
+    box-sizing: border-box !important;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 15px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav */
+
+nav{
+    opacity: .9;
+}
+
+/* header */
+header .jumbotron{
+    background-image: url(images/header-1.jpg);
+    background-size: cover;
+    background-position: 25% 50%;
+    padding-top: 12rem;
+    height: 40rem;
+    opacity: 0.9;
+    z-index: -1;
+}
+
+#header-title-btk{
+    text-transform: uppercase !important;
+    color: black;
+}
+
+/* breadcrumbs */
+nav ol.breadcrumb{
+    margin-top: -2%;
+    background-color: black;
+    opacity: .9;
+    color: white !important;
+} 
+
