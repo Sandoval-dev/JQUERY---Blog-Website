@@ -23,7 +23,7 @@ nav{
 
 /* header */
 header .jumbotron{
-    background-image: url(images/header-1.jpg);
+    background-image: url(images/doga-1.jpg);
     background-size: cover;
     background-position: 25% 50%;
     padding-top: 12rem;
@@ -42,6 +42,14 @@ nav ol.breadcrumb{
     margin-top: -2%;
     background-color: black;
     opacity: .9;
-    color: white !important;
-} 
+    
+}
+
+.f20{
+    font-size: .5rem;
+}
+
+.col-md-8 img:hover{
+ opacity: 0.8;
+}
 
